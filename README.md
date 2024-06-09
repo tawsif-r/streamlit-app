@@ -36,24 +36,18 @@ This application leverages machine learning to predict the class of a skin lesio
     cd streamlit-app
     ```
 
-2. Set up a virtual environment:
-    ```bash
-    python3 -m venv venv
-    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-    ```
-
 3. Install the required packages:
     ```bash
-    pip install -r requirements.txt
+    pip install streamlit
     ```
 
 4. Download the pre-trained model and place it in the `model` directory.
 
 ## Usage
 
-1. Start the Flask web server:
+1. Start the streamlit web server:
     ```bash
-    python app.py
+    streamlit run app.py
     ```
 
 2. Open your web browser and navigate to `http://127.0.0.1:5000`.
@@ -62,4 +56,3 @@ This application leverages machine learning to predict the class of a skin lesio
 
 4. View the predicted class and probability scores.
 
-## Project Structure
