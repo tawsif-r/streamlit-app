@@ -55,4 +55,5 @@ This application leverages machine learning to predict the class of a skin lesio
 3. Upload an image of the skin lesion.
 
 4. View the predicted class and probability scores.
+   ![alt text](https://github.com/tawsif-r/streamlit-app/blob/main/home.png?raw=true)
 
